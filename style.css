@@ -1,0 +1,35 @@
+body{
+	margin: 0;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding: 17px 20px;
+	border-bottom: 1px solid #F2F2F2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu-list{
+	list-style: none;
+	display: flex;
+	gap: 20px;
+}
+
+.menu-list a{
+	font-family: 'Cardo';
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 23px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.empty{
+	width: 240px;
+}
